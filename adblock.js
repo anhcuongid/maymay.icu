@@ -2,7 +2,7 @@
     function f() {
         var a = document.createElement("div");
         a.id = "levelmaxblock";
-        a.innerHTML = '<div class="inner"><div class="header"><h2 style="color:#fff;">Đã phát hiện Ad Blocker</h2></div><p>Bạn vui lòng tắt trình chặn quảng cáo của bạn để tiếp tục!</p><br/><p>Hoặc bạn vui lòng dùng trình <b>Chrome</b> hoặc <b>Firefox</b> để tiếp tục !</p></div>';
+        a.innerHTML = '<div class="inner"><div class="header"><h2 style="color:#fff;">Đã phát hiện Ad Blocker</h2></div><p>Bạn vui lòng tắt trình chặn quảng cáo của bạn để tiếp tục!</p><br/><p>Hoặc bạn vui lòng dùng trình duyệt <b>Chrome</b> hoặc <b>Firefox</b> để tiếp tục !</p></div>';
 
         document.body.append(a);
         document.body.style.overflow = "hidden";
